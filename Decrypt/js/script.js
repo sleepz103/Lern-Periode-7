@@ -1,4 +1,75 @@
-static void main(string[] args)
+const button = document.getElementById("btn");
+button.addEventListener("click", possibleOutcomes);
+
+const p = document.createElement("p");
+
+const alphabetUpper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+const alphabetLower = "abcdefghijklmnopqrstuvwxyz";
+
+function possibleOutcomes()
 {
-    console.WriteLine("64696573652073656974652076657277656e646574206c6f63616c73746f72616765206f64657220636f6f6b6965732c20756d206469652065696e2d20756e642061757367616265207a7769736368656e7a7573706569636865726e2c20736f2064617373206265696d2073656974656e7765636873656c2064696520646174656e206e69636874207665726c6f72656e20676568656e2e")
+    for (let i = 0; i < 26; i++)
+    {
+        DecodeCaesar(i);
+    }
+}
+
+
+
+function DecodeCaesar(shift)
+{
+    let alphabetCurrent;
+    let encryptedInput = document.querySelector("#encryptedInput").value;
+    let letterEncrypted;
+    let letterDecrypted;
+    let letterEncryptedIndex;
+    let letterDecryptedIndex;
+    let decipheredMessage = "";
+
+
+    for (let i = 0; i < encryptedInput.length; i++)
+    {
+        letterEncrypted = encryptedInput[i];
+
+        if(letterEncrypted == letterEncrypted.toUpperCase())
+        {
+            console.log("alphabetUpper will be used");
+            alphabetCurrent = alphabetUpper;
+        }
+        else
+        {
+            console.log("alphabetLower will be used");
+            alphabetCurrent = alphabetLower;
+        }
+        
+
+        if (isLetter(letterEncrypted))
+        {
+            shift = shift % 26;
+            letterEncryptedIndex = alphabetCurrent.indexOf(letterEncrypted);
+            letterDecryptedIndex = letterEncryptedIndex - shift;
+
+            while (letterDecryptedIndex < 0)
+            {
+                letterDecryptedIndex += 26;
+            }
+            
+            letterDecrypted = alphabetCurrent[letterDecryptedIndex];
+            decipheredMessage += letterDecrypted;
+        }
+        else
+        {
+            letterDecrypted = letterEncrypted;
+            decipheredMessage += letterDecrypted;
+        }
+    }
+    p.textContent = decipheredMessage;
+    document.getElementById("outcomes").append(p);
+}
+
+
+
+function isLetter(c)
+{
+    return c.toLowerCase() != c.toUpperCase();
 }
