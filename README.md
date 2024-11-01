@@ -31,7 +31,7 @@ Heute haben wir mit neuen Lernperiode angefangen. Am Anfang konnte ich über mei
 
 Heute habe ich fleissig gearbeitet. Ich habe schon gestern erfahren, wie ich das Text dynamisch generieren kann. Dann habe ich meiste Zeit gebracht, C# in JS umzuwandeln. JS finde ich ähnlich, nur das grösste unterschied liegt an Variablen, die haben mir paar Probleme gemacht. Aber am Ende funktioniert das Skript. Nur aber habe ich vergessen, wie man nun den Text zeigen kann. (62)
 
-## 8/11
+## 08/11
 
 - [ ] Als Benutzer der Webseite möchte ich die Nachricht eingebenen können, um mögliche Kombinationen vor mir ausgegeben werden.
 
