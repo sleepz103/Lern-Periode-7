@@ -18,9 +18,9 @@ Heute haben wir mit neuen Lernperiode angefangen. Am Anfang konnte ich über mei
 
 ## 01/11
 
-- [ ] Ein Tutorial folgen, wie kann ich Benutzer Eingaben speichern.
+- [x] Ein Tutorial folgen, wie kann ich Benutzer Eingaben speichern.
 
-- [ ] ..Und auch wie man Text dynamisch darstellt. 
+- [x] ..Und auch wie man Text dynamisch darstellt. 
 
 [User Input and Response - YouTube](https://www.youtube.com/watch?v=KB6Yg5hNrqc)
 
