@@ -33,10 +33,16 @@ Heute habe ich fleissig gearbeitet. Ich habe schon gestern erfahren, wie ich das
 
 ## 08/11
 
-- [ ] Als Benutzer der Webseite möchte ich die Nachricht eingebenen können, um mögliche Kombinationen vor mir ausgegeben werden.
+- [x] Als Benutzer der Webseite möchte ich die Nachricht eingebenen können, um mögliche Kombinationen vor mir ausgegeben werden.
 
-- [ ] Als Benutzer möchte ich gerne auch Option haben, die Entschlüsselungverfahren wählen zu können, damit ich die Nachricht richtig entschlüsseln kann.
+- [x] Als Benutzer möchte ich gerne auch Option haben, die Entschlüsselungverfahren wählen zu können, damit ich die Nachricht richtig entschlüsseln kann.
 
-- [ ] Mit dem Wahl der Entschlüsselungverfahren möchte ich gerne dann die Shift Entschlüsselung wählen, um Shift Nachrichten auch lesen zu können.
+- [x] Mit dem Wahl der Entschlüsselungverfahren möchte ich gerne dann die Shift Entschlüsselung wählen, um Shift Nachrichten auch lesen zu können.
 
 - [ ] Als Benutzer, der die Verschiebung kennt, möchte ich eine Möglichkeit haben, die verschiebung einzugeben, damit ich direkt auf die Nachricht kommen kann.
+
+Heute habe ich die Entschlüsselung Webseite auf Nutzbaren Stand gebracht. Zuerst fande ich heraus, dass createElement in den Loop sich befinden sein muss, um neue Elemente immer zu erstellen. Und somit ist Caesar Entschlüsselung fertig. Danach habe ich zwei Buttons addiert. Nun kann man wählen, welche man benutzten will. Am Ende habe ich Caesar kopiert und am bisschen Fehler gesucht und dann war die Shift Entschlüsselung auch fertig. (68)
+
+## 15/11
+
+- [ ] 
