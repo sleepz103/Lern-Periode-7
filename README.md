@@ -27,8 +27,6 @@ Heute haben wir mit neuen Lernperiode angefangen. Am Anfang konnte ich über mei
 - [x] Ceaser Funktion programmieren, wie ich es in C# gemacht habe
 - [ ] Prüfen ob die Funktion funktioniert, indem ich Eingabe mit funktion verbinde
 
-
-
 Heute habe ich fleissig gearbeitet. Ich habe schon gestern erfahren, wie ich das Text dynamisch generieren kann. Dann habe ich meiste Zeit gebracht, C# in JS umzuwandeln. JS finde ich ähnlich, nur das grösste unterschied liegt an Variablen, die haben mir paar Probleme gemacht. Aber am Ende funktioniert das Skript. Nur aber habe ich vergessen, wie man nun den Text zeigen kann. (62)
 
 ## 08/11
@@ -45,4 +43,9 @@ Heute habe ich die Entschlüsselung Webseite auf Nutzbaren Stand gebracht. Zuers
 
 ## 15/11
 
-- [ ] 
+Modul 294 Periode
+
+- [ ] Als Benutzer der Quote Webseite möchte ich gerne mehr Quotes haben, damit ich gerner auf die Webseite komme.
+- [ ] Als Benutzer der Quote Webseite möchte ich auch gerne auswählen, wie viele Quotes geladen sind, damit ich mir nicht in Quotes verliere.
+- [ ] Als Schüler der IMS möchte ich JSON Backend lokal starten können, damit ich die CRUD aufgbae lösen kann und vortwärts mit Webentwicklung weiterfahren kann.
+- [ ] Als Benutzer der CRUD Webseite möchte ich eine Liste aller Bücher und "Zurück" Button genererien lassen, um dynamisch zu sehen, welche Daten sich auf den Server befinden. 
