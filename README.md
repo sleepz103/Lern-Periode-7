@@ -45,7 +45,20 @@ Heute habe ich die Entschlüsselung Webseite auf Nutzbaren Stand gebracht. Zuers
 
 Modul 294 Periode
 
-- [ ] Als Benutzer der Quote Webseite möchte ich gerne mehr Quotes haben, damit ich gerner auf die Webseite komme. 8426
+- [x] Als Benutzer der Quote Webseite möchte ich gerne mehr Quotes haben, damit ich gerner auf die Webseite komme. 8426
 - [ ] Als Benutzer der Quote Webseite möchte ich auch gerne auswählen, wie viele Quotes geladen sind, damit ich mir nicht in Quotes verliere. 8426
 - [ ] Als Schüler der IMS möchte ich JSON Backend lokal starten können, damit ich die CRUD aufgbae lösen kann und vortwärts mit Webentwicklung weiterfahren kann. 8429
 - [ ] Als Benutzer der CRUD Webseite möchte ich eine Liste aller Bücher und "Zurück" Button genererien lassen, um dynamisch zu sehen, welche Daten sich auf den Server befinden.  8429
+
+
+
+Heute bin ich zufrieden mit der Zeit für ILA, habe jedoch nicht viel geleistet. Ich habe angefangen mit Fetch. Ich habe vieles darüber nicht ganz verstanden, habe dafür aber Tutorial gefolgt und es funktioniert. Somit habe ich besseres Verständis über Promise und AwaIt/Async und habe ich mir das notiert. Dann habe ich einen Kolleg erklärt, wie diese Webseite funktionert. Nun denke ich, dass das fetch nicht kompliziert ist. Aber ich werde noch eine Stunde arbeiten, bis ich noch das zweite AP schaffe.
+
+
+
+## 22/11
+
+- [ ] Als Schüler der IMS möchte ich JSON Backend lokal starten können, damit ich die CRUD aufgbae lösen kann und vortwärts mit Webentwicklung weiterfahren kann. 8429
+- [ ] Als Benutzer der CRUD Webseite möchte ich eine Liste aller Bücher und "Zurück" Button genererien lassen, um dynamisch zu sehen, welche Daten sich auf den Server befinden. 8429
+- [ ] Als Benutzer der CRUD Webseite möchte ich ein Interface mit "Zurück" Button genererien lassen, um dynamisch Einträge von Daten zu erstellen und auf Server zu schicken. 8429 
+- [ ] Als Schüler der IMS möchte ich mir Git lokal installieren und auf BBB gitlab hochladen, um Start in Versionierung zu haben und weiter mit Aufträgen zu sein. 8460
