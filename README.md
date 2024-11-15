@@ -45,7 +45,7 @@ Heute habe ich die Entschlüsselung Webseite auf Nutzbaren Stand gebracht. Zuers
 
 Modul 294 Periode
 
-- [ ] Als Benutzer der Quote Webseite möchte ich gerne mehr Quotes haben, damit ich gerner auf die Webseite komme.
-- [ ] Als Benutzer der Quote Webseite möchte ich auch gerne auswählen, wie viele Quotes geladen sind, damit ich mir nicht in Quotes verliere.
-- [ ] Als Schüler der IMS möchte ich JSON Backend lokal starten können, damit ich die CRUD aufgbae lösen kann und vortwärts mit Webentwicklung weiterfahren kann.
-- [ ] Als Benutzer der CRUD Webseite möchte ich eine Liste aller Bücher und "Zurück" Button genererien lassen, um dynamisch zu sehen, welche Daten sich auf den Server befinden. 
+- [ ] Als Benutzer der Quote Webseite möchte ich gerne mehr Quotes haben, damit ich gerner auf die Webseite komme. 8426
+- [ ] Als Benutzer der Quote Webseite möchte ich auch gerne auswählen, wie viele Quotes geladen sind, damit ich mir nicht in Quotes verliere. 8426
+- [ ] Als Schüler der IMS möchte ich JSON Backend lokal starten können, damit ich die CRUD aufgbae lösen kann und vortwärts mit Webentwicklung weiterfahren kann. 8429
+- [ ] Als Benutzer der CRUD Webseite möchte ich eine Liste aller Bücher und "Zurück" Button genererien lassen, um dynamisch zu sehen, welche Daten sich auf den Server befinden.  8429
