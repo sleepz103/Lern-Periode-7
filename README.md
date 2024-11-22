@@ -62,3 +62,4 @@ Heute bin ich zufrieden mit der Zeit für ILA, habe jedoch nicht viel geleistet.
 - [x] Als Benutzer der CRUD Webseite möchte ich eine Liste aller Bücher und "Zurück" Button genererien lassen, um dynamisch zu sehen, welche Daten sich auf den Server befinden. 8429
 - [ ] Als Benutzer der CRUD Webseite möchte ich ein Interface mit "Zurück" Button genererien lassen, um dynamisch Einträge von Daten zu erstellen und auf Server zu schicken. 8429 
 - [ ] Als Schüler der IMS möchte ich mir Git lokal installieren und auf BBB gitlab hochladen, um Start in Versionierung zu haben und weiter mit Aufträgen zu sein. 8460
+- [ ] Als Benutzer der CRUD Webseite möchte ich die Liste der Bücher klickbar machen, um dann den Benutzer erlauben, die Name von Buch ändern und somit Einträge richtig zu halten. 8429 
