@@ -1,0 +1,12 @@
+{
+	"alice": {
+		"algo": "sha256",
+		"salt": "7xTI",
+		"hash": "cc4843c68a1244d8862c49c6037f5726805c2bf36b4e86e1c34d698d415cf256"
+	},
+	"bob": {
+		"algo": "sha256",
+		"salt": "d845b415cc549066c975a9561c136d46",
+		"hash": "cfcbcf9f781de48c7c6436d3010ea722e1468ea853b997ff1aa8faf3d4646f29"
+	}
+}

@@ -1,0 +1,45 @@
+{
+	"books": [
+		{
+			"id": "2",
+			"title": "cool book name",
+			"author": "me"
+		},
+		{
+			"id": "101",
+			"title": "coooking good looking",
+			"author": "wawa"
+		},
+		{
+			"id": "999",
+			"title": "aaa",
+			"author": "aaaa"
+		},
+		{
+			"id": "2x8s",
+			"title": "Fantastic Beasts and Where to Find Them"
+		},
+		{
+			"id": "y2ww",
+			"title": "The Hobbit"
+		},
+		{
+			"id": "ik8l",
+			"title": "A study in scarlet 2"
+		}
+	],
+	"authors": [
+		{
+			"id": "1",
+			"name": "Arthur Conan Doyle"
+		},
+		{
+			"id": "2",
+			"name": "J. R. R. Tolkien"
+		},
+		{
+			"id": "3",
+			"name": "Joanne K. Rowling"
+		}
+	]
+}

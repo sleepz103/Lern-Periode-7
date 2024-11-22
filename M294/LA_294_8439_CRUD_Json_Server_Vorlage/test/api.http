@@ -1,0 +1,231 @@
+# ----------------------------------------------------------------------
+# These API usage examples also extend the documentation.
+# See README.md for more details.
+#
+# Some of the API calls require you to authenticate with a JWT.
+# To do this you need to create the user 'bob' first, and then
+# you can sign in.
+#
+# These are the first two requests in this file. The other requests
+# will then user the JWT value from that second request.
+#
+# NOTE: Using this file works really well inside VisualStudio Code
+#       with the rest-client extension installed.
+# ----------------------------------------------------------------------
+
+@baseurl = http://localhost:3000
+
+###
+
+# minimal documentation
+GET {{baseurl}}
+
+
+###
+
+# Create user 'bob'
+# -> 404 (not found) if not using authentication
+# -> 409 (conflict) if username (from payload) is already used
+# -> 201 (created) if username does not exist
+POST {{baseurl}}/auth/register
+Content-Type: application/json
+
+{ "username" : "bob", "password": "bobssecretpassword" }
+
+###
+
+# Check password (correct password)
+# -> 404 (not found) if not using authentication
+# -> 400 (bad request) if username does not exist or password is wrong
+# -> 200 (ok) if valid; body = JWT
+# @name loginAsBob
+POST {{baseurl}}/auth/signin
+Content-Type: application/json
+
+{ "username" : "bob", "password": "bobssecretpassword" }
+
+###
+
+# Check password (wrong password)
+# -> 404 (not found) if not using authentication
+# -> 400 (bad request) if username does not exist or password is wrong
+POST {{baseurl}}/auth/signin
+Content-Type: application/json
+
+{ "username" : "bob", "password": "notbobspassword" }
+
+###
+
+# Refresh the JWT
+# -> 404 (not found) if not using authentication
+# -> 200 (ok) if valid
+POST {{baseurl}}/auth/refresh
+Authorization: Bearer {{loginAsBob.response.body.*}}
+
+###
+
+# Change the password
+# -> 404 (not found) if not using authentication
+# -> 204 (no content) on success
+POST {{baseurl}}/auth/changepassword
+Authorization: Bearer {{loginAsBob.response.body.*}}
+Content-Type: application/json
+
+{ "username" : "bob", "password": "bobsnewpassword" }
+
+###
+
+# Delete user
+# -> 404 (not found) if not using authentication
+# -> 403 (forbidden) if username does not exist
+# -> 403 (forbidden) if request is not from the user themselves
+# -> 204 (no content) on success
+DELETE {{baseurl}}/auth/delete/bob
+Authorization: Bearer {{loginAsBob.response.body.*}}
+
+###
+
+# Delete user
+# -> 404 (not found) if not using authentication
+# -> 403 (forbidden) if username does not exist
+# -> 403 (forbidden) if request is not from the user themselves
+# -> 204 (no content) on success
+DELETE {{baseurl}}/auth/delete/alice
+Authorization: Bearer {{loginAsBob.response.body.*}}
+
+###
+
+# List all books
+# -> 200 (ok) with list of books
+GET {{baseurl}}/data/books
+
+###
+
+# List all foobars
+# -> 404 (not found)
+GET {{baseurl}}/data/foobars
+
+###
+
+# Get book with ID '2x8s'
+# -> 200 (ok) single book
+GET {{baseurl}}/data/books/2x8s
+
+###
+
+# Get book with ID '999'
+# -> 200 (ok) if entry exists
+# -> 404 (not found) if entry does not exist
+GET {{baseurl}}/data/books/999
+
+###
+
+# Create book '999'
+# -> 401 (not authorized) if using authentication (request has no Authorize header)
+# -> 406 (not acceptable) payload is not JSON
+# -> 500 (internal server error) if JSON parsing occurs albeit the wrong header
+POST {{baseurl}}/data/books
+Content-Type: application/x-www-form-urlencoded
+
+id=999&title=A%20Brief%20History%20of%20Time
+
+###
+
+# Create book
+# -> 400 (bad request) payload is not a JSON object (JSON, but not Object)
+# -> 401 (not authorized) if using authentication (request has no Authorize header)
+POST {{baseurl}}/data/books
+Content-Type: application/json
+
+["Just", "an", "array,", "but", "that's", "JSON", "too!"]
+
+###
+
+# Create book
+# -> 400 (bad request), payload has no 'id' field
+POST {{baseurl}}/data/books
+Authorization: Bearer {{loginAsBob.response.body.*}}
+Content-Type: application/json
+
+{
+    "title": "Nice try",
+    "author": "Hugh Wish"
+}
+
+###
+
+# Create book (with mistakes in title and author)
+# -> 201 (created) if book does not exist
+# -> 401 (not authorized) if using authentication (request has no Authorize header)
+# -> 409 (conflict) if id (from payload) is already used
+POST {{baseurl}}/data/books
+Content-Type: application/json
+
+{
+    "id": "999",
+    "title": "Short history of Time",
+    "author": "Steven Hawking"
+}
+
+###
+
+# Create book 999 (with mistakes in title and author)
+# -> 201 (created) if book does not exist
+# -> 409 (conflict) if id (from payload) is already used
+POST {{baseurl}}/data/books
+Authorization: Bearer {{loginAsBob.response.body.*}}
+Content-Type: application/json
+
+{
+    "id": "999",
+    "title": "Short history of Time",
+    "author": "Steven Hawking"
+}
+
+###
+
+# Update book 999 (fix mistakes)
+# -> 204 (no content) if book exists
+# -> 401 (not authorized) if using authentication (request has no Authorize header)
+# -> 404 (not found) if book does not exist
+PUT {{baseurl}}/data/books/999
+Content-Type: application/json
+
+{
+    "id": "999",
+    "title": "A Brief History of Time",
+    "author": "Stephen Hawking"
+}
+
+###
+
+# Update book 999 (fix mistakes)
+# -> 204 (no content) if book exists
+# -> 404 (not found) if book does not exist
+PUT {{baseurl}}/data/books/999
+Authorization: Bearer {{loginAsBob.response.body.*}}
+Content-Type: application/json
+
+{
+    "id": "999",
+    "title": "A Brief History of Time",
+    "author": "Stephen Hawking"
+}
+
+###
+
+# Delete book 999
+# -> 401 (not authorized) if using authentication (request has no Authorize header)
+# -> 204 (no content) if book exists, otherwise 404 (not found)
+DELETE {{baseurl}}/data/books/999
+
+###
+
+# Delete book 999
+# -> 401 (not authorized) if using authentication (request has no Authorize header)
+# -> 204 (no content) if book exists, otherwise 404 (not found)
+DELETE {{baseurl}}/data/books/999
+Authorization: Bearer {{loginAsBob.response.body.*}}
+
+###
+DELETE {{baseurl}}/data/books/
