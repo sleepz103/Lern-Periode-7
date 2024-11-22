@@ -60,6 +60,7 @@ Heute bin ich zufrieden mit der Zeit für ILA, habe jedoch nicht viel geleistet.
 
 - [x] Als Schüler der IMS möchte ich JSON Backend lokal starten können, damit ich die CRUD aufgbae lösen kann und vortwärts mit Webentwicklung weiterfahren kann. 8429
 - [x] Als Benutzer der CRUD Webseite möchte ich eine Liste aller Bücher und "Zurück" Button genererien lassen, um dynamisch zu sehen, welche Daten sich auf den Server befinden. 8429
-- [ ] Als Benutzer der CRUD Webseite möchte ich ein Interface mit "Zurück" Button genererien lassen, um dynamisch Einträge von Daten zu erstellen und auf Server zu schicken. 8429 
-- [ ] Als Schüler der IMS möchte ich mir Git lokal installieren und auf BBB gitlab hochladen, um Start in Versionierung zu haben und weiter mit Aufträgen zu sein. 8460
-- [ ] Als Benutzer der CRUD Webseite möchte ich die Liste der Bücher klickbar machen, um dann den Benutzer erlauben, die Name von Buch ändern und somit Einträge richtig zu halten. 8429 
+- [x] Als Benutzer der CRUD Webseite möchte ich ein Interface mit "Zurück" Button genererien lassen, um dynamisch Einträge von Daten zu erstellen und auf Server zu schicken. 8429 
+- [x] Als Schüler der IMS möchte ich mir Git lokal installieren und auf BBB gitlab hochladen, um Start in Versionierung zu haben und weiter mit Aufträgen zu sein. 8460
+
+Heute habe ich mich mit CRUD beschäftigt. Die POST Methode habe ich erfolgreich geschafft. Mit den Drück auf Read werden vorherigen Einträge gelöscht und aktuelle geladen. Und mit Create bekommt man eine Schnittstelle, wo man ein Buch eingeben kann. Da hat mir aber oft ChatGPT geholfen, wenn ich einen Fehler nicht beheben konnte. Am Ende habe ich mir noch Git installiert, auf gitlab eingeloggt und konnte sogar mein lokales repo hochladen. Ich fand den Auftrag aber verwirrend, da meiste Befehle nicht gleich bei mir funktionierte. Trotzdem habe ich es in eine Stude geschafft. (93)
