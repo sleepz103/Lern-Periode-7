@@ -64,3 +64,5 @@ Heute bin ich zufrieden mit der Zeit für ILA, habe jedoch nicht viel geleistet.
 - [x] Als Schüler der IMS möchte ich mir Git lokal installieren und auf BBB gitlab hochladen, um Start in Versionierung zu haben und weiter mit Aufträgen zu sein. 8460
 
 Heute habe ich mich mit CRUD beschäftigt. Die POST Methode habe ich erfolgreich geschafft. Mit den Drück auf Read werden vorherigen Einträge gelöscht und aktuelle geladen. Und mit Create bekommt man eine Schnittstelle, wo man ein Buch eingeben kann. Da hat mir aber oft ChatGPT geholfen, wenn ich einen Fehler nicht beheben konnte. Am Ende habe ich mir noch Git installiert, auf gitlab eingeloggt und konnte sogar mein lokales repo hochladen. Ich fand den Auftrag aber verwirrend, da meiste Befehle nicht gleich bei mir funktionierte. Trotzdem habe ich es in eine Stude geschafft. (93)
+
+## 29/11
