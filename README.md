@@ -73,3 +73,9 @@ Heute habe ich mich mit CRUD beschäftigt. Die POST Methode habe ich erfolgreich
 - [x] Als Mitarbeiter der Wood Logistics GmbH möchte ich einem konformitätspflichtigen Login-Schritt haben, zur Erhöhung der Datensicherheit in der Firma.
 
 Heute habe ich viel erreicht. Heute habe ich für die SPA gearbeitet. Zuerst habe ich Main fixed size definiert Ich habe entschieden, dass mein Beispiel JSON gut ist und ich es so eingefügen kann. Bevor ich mit Javascript anfing, implementierte ich zwei Beispiele in HTML. Während der Arbeit habe ich ein paar Mal AI für Styling gefragt, damit es schneller geht. Am Ende habe ich die drei Funktionen meiner Webseite (home, login, stock) auf eigene Renderer funktionen gesetzt. Ich denke die Webseite ist bereit für das Backend und JWT. (89)
+
+## 07/12
+- [ ] Als Mitarbeiter der Wood Logistics GmbH wünsche ich mir, dass die Lagerdaten auf dem "Server" sind, um von überall im Unternehmen auf den Lagerbestand zugreifen zu können.
+- [ ] Als Mitarbeiter der Wood Logistics GmbH möchte ich einen grünen Button auf einem Datensatz ganz unten, um neue Holzarten zu erstellen. Dann wird dieser Datensatz neu erstellt und zeigt Felder zur Eingabe der Anfangsdaten an.
+- [ ] Als Mitarbeiter der Wood Logistics GmbH möchte ich auch einen gelben Button auf den Datensätzen, um den Lagerbestand manuell zu verwalten.
+- [ ] Als Mitarbeiter der Wood Logistics GmbH möchte ich mit dem roten Button die Datensätze löschen, wenn kein Holz einer Sorte mehr vorhanden ist.
