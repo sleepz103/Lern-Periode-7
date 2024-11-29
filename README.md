@@ -67,7 +67,7 @@ Heute habe ich mich mit CRUD beschäftigt. Die POST Methode habe ich erfolgreich
 
 ## 29/11
 
-- [ ] Als Mitarbeiter der Wood Logistics GmbH wünsche ich mir eine definierte Stelle, wo die Einträge zu finden sind, um die Konformität der Website zu erhöhen.
-- [ ] Als Entwickler der Webseite Wood Logistics GmbH möchte ich definierte JSON Daten in Javascript haben, um mit ihnen testweise zu arbeiten, um Funktionalität der Webseite vor der Serverinstallation zu schaffen.
-- [ ] Als Entwickkler der Webseite Wood Logistics GmbG möchte ich den Endresultat von Elementen und Buttons sehen, um so mit Javascript nachzumachen und dann dynamisch gleich zu erstellen.
+- [x] Als Mitarbeiter der Wood Logistics GmbH wünsche ich mir eine definierte Stelle, wo die Einträge zu finden sind, um die Konformität der Website zu erhöhen.
+- [x] Als Entwickler der Webseite Wood Logistics GmbH möchte ich definierte JSON Daten in Javascript haben, um mit ihnen testweise zu arbeiten, um Funktionalität der Webseite vor der Serverinstallation zu schaffen.
+- [x] Als Entwickkler der Webseite Wood Logistics GmbG möchte ich den Endresultat von Elementen und Buttons sehen, um so mit Javascript nachzumachen und dann dynamisch gleich zu erstellen.
 - [ ] Als Mitarbeiter der Wood Logistics GmbH möchte ich einem konformitätspflichtigen Login-Schritt haben, zur Erhöhung der Datensicherheit in der Firma.
