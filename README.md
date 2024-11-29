@@ -69,5 +69,7 @@ Heute habe ich mich mit CRUD beschäftigt. Die POST Methode habe ich erfolgreich
 
 - [x] Als Mitarbeiter der Wood Logistics GmbH wünsche ich mir eine definierte Stelle, wo die Einträge zu finden sind, um die Konformität der Website zu erhöhen.
 - [x] Als Entwickler der Webseite Wood Logistics GmbH möchte ich definierte JSON Daten in Javascript haben, um mit ihnen testweise zu arbeiten, um Funktionalität der Webseite vor der Serverinstallation zu schaffen.
-- [x] Als Entwickkler der Webseite Wood Logistics GmbG möchte ich den Endresultat von Elementen und Buttons sehen, um so mit Javascript nachzumachen und dann dynamisch gleich zu erstellen.
-- [ ] Als Mitarbeiter der Wood Logistics GmbH möchte ich einem konformitätspflichtigen Login-Schritt haben, zur Erhöhung der Datensicherheit in der Firma.
+- [x] Als Entwickler der Webseite Wood Logistics GmbH möchte ich den Endresultat von Elementen und Buttons sehen, um so mit Javascript nachzumachen und dann dynamisch gleich zu erstellen.
+- [x] Als Mitarbeiter der Wood Logistics GmbH möchte ich einem konformitätspflichtigen Login-Schritt haben, zur Erhöhung der Datensicherheit in der Firma.
+
+Heute habe ich viel erreicht. Heute habe ich für die SPA gearbeitet. Zuerst habe ich Main fixed size definiert Ich habe entschieden, dass mein Beispiel JSON gut ist und ich es so eingefügen kann. Bevor ich mit Javascript anfing, implementierte ich zwei Beispiele in HTML. Während der Arbeit habe ich ein paar Mal AI für Styling gefragt, damit es schneller geht. Am Ende habe ich die drei Funktionen meiner Webseite (home, login, stock) auf eigene Renderer funktionen gesetzt. Ich denke die Webseite ist bereit für das Backend und JWT. (89)
