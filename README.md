@@ -66,3 +66,8 @@ Heute bin ich zufrieden mit der Zeit für ILA, habe jedoch nicht viel geleistet.
 Heute habe ich mich mit CRUD beschäftigt. Die POST Methode habe ich erfolgreich geschafft. Mit den Drück auf Read werden vorherigen Einträge gelöscht und aktuelle geladen. Und mit Create bekommt man eine Schnittstelle, wo man ein Buch eingeben kann. Da hat mir aber oft ChatGPT geholfen, wenn ich einen Fehler nicht beheben konnte. Am Ende habe ich mir noch Git installiert, auf gitlab eingeloggt und konnte sogar mein lokales repo hochladen. Ich fand den Auftrag aber verwirrend, da meiste Befehle nicht gleich bei mir funktionierte. Trotzdem habe ich es in eine Stude geschafft. (93)
 
 ## 29/11
+
+- [ ] Als Mitarbeiter der Wood Logistics GmbH wünsche ich mir eine definierte Stelle, wo die Einträge zu finden sind, um die Konformität der Website zu erhöhen.
+- [ ] Als Entwickler der Webseite Wood Logistics GmbH möchte ich definierte JSON Daten in Javascript haben, um mit ihnen testweise zu arbeiten, um Funktionalität der Webseite vor der Serverinstallation zu schaffen.
+- [ ] Als Entwickkler der Webseite Wood Logistics GmbG möchte ich den Endresultat von Elementen und Buttons sehen, um so mit Javascript nachzumachen und dann dynamisch gleich zu erstellen.
+- [ ] Als Mitarbeiter der Wood Logistics GmbH möchte ich einem konformitätspflichtigen Login-Schritt haben, zur Erhöhung der Datensicherheit in der Firma.
