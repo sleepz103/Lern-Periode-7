@@ -81,7 +81,7 @@ Heute habe ich viel erreicht. Heute habe ich für die SPA gearbeitet. Zuerst hab
 
 ## 13/12
 
-- [ ] Leere Methoden für ein Uhr Programm erstellen und Unit Tests nach Vorgaben erstellen. (6971)
+- [x] Leere Methoden für ein Uhr Programm erstellen und Unit Tests nach Vorgaben erstellen. (6971)
 
 - [ ] Code Implementieren, sodass Tests grün sind. (6971) 
 
