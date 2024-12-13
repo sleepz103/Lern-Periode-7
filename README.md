@@ -77,8 +77,6 @@ Heute habe ich viel erreicht. Heute habe ich für die SPA gearbeitet. Zuerst hab
 - [x] Als Mitarbeiter der Wood Logistics GmbH möchte ich auch einen gelben Button auf den Datensätzen, um den Lagerbestand manuell zu verwalten.
 - [x] Als Mitarbeiter der Wood Logistics GmbH möchte ich mit dem roten Button die Datensätze löschen, wenn kein Holz einer Sorte mehr vorhanden ist.
 
-
-
 ## 13/12
 
 - [x] Leere Methoden für ein Uhr Programm erstellen und Unit Tests nach Vorgaben erstellen. (6971)
@@ -86,3 +84,13 @@ Heute habe ich viel erreicht. Heute habe ich für die SPA gearbeitet. Zuerst hab
 - [ ] Code Implementieren, sodass Tests grün sind. (6971) 
 
 - [ ] Advent of Code, den ersten Tag lösen
+
+
+
+Heute habe ich mit Test Driven Development Methode gearbeitet, um ein Programm zu erstellen. Ich finde die Methode sehr gut, vorallem wenn Testfälle vorhanden sind. Ich konnte zuerst das Programm gut kennenlernen, und dann Zielorientiert Schritt für Schritt Programm füllen. Am meisten hat es aber gedauert, Klassen zu erstellen. Für die Testklassen habe ich Vorlage heruntergeladen. Mir ist bewusst gewesen, dass dieser Auftrag viel dauern kann. Und auch wenn ich nur ein Arbeitspacket vollständig gemacht habe, habe ich eine gute Methode gefunden, die ich in Zukunft brauchen werde. (88)
+
+## 22/12
+
+- [ ] Als Benutzer der Entschlüsselung-Webseite möchte ich wissen, welche Methode gedrückt wurde, um bei Entschlüsselung beweusst sein und konformität steigen.
+
+- [ ] als Benutzer der Entschlüsselung-Webseite will ich Hintergrund der Webseite wählen, um sie zu personalisieren und Verbindung mit der Webseite aufbauen.
