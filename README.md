@@ -50,11 +50,7 @@ Modul 294 Periode
 - [ ] Als Schüler der IMS möchte ich JSON Backend lokal starten können, damit ich die CRUD aufgbae lösen kann und vortwärts mit Webentwicklung weiterfahren kann. 8429
 - [ ] Als Benutzer der CRUD Webseite möchte ich eine Liste aller Bücher und "Zurück" Button genererien lassen, um dynamisch zu sehen, welche Daten sich auf den Server befinden.  8429
 
-
-
 Heute bin ich zufrieden mit der Zeit für ILA, habe jedoch nicht viel geleistet. Ich habe angefangen mit Fetch. Ich habe vieles darüber nicht ganz verstanden, habe dafür aber Tutorial gefolgt und es funktioniert. Somit habe ich besseres Verständis über Promise und AwaIt/Async und habe ich mir das notiert. Dann habe ich einen Kolleg erklärt, wie diese Webseite funktionert. Nun denke ich, dass das fetch nicht kompliziert ist. Aber ich werde noch eine Stunde arbeiten, bis ich noch das zweite AP schaffe.
-
-
 
 ## 22/11
 
@@ -75,7 +71,18 @@ Heute habe ich mich mit CRUD beschäftigt. Die POST Methode habe ich erfolgreich
 Heute habe ich viel erreicht. Heute habe ich für die SPA gearbeitet. Zuerst habe ich Main fixed size definiert Ich habe entschieden, dass mein Beispiel JSON gut ist und ich es so eingefügen kann. Bevor ich mit Javascript anfing, implementierte ich zwei Beispiele in HTML. Während der Arbeit habe ich ein paar Mal AI für Styling gefragt, damit es schneller geht. Am Ende habe ich die drei Funktionen meiner Webseite (home, login, stock) auf eigene Renderer funktionen gesetzt. Ich denke die Webseite ist bereit für das Backend und JWT. (89)
 
 ## 07/12
-- [ ] Als Mitarbeiter der Wood Logistics GmbH wünsche ich mir, dass die Lagerdaten auf dem "Server" sind, um von überall im Unternehmen auf den Lagerbestand zugreifen zu können.
-- [ ] Als Mitarbeiter der Wood Logistics GmbH möchte ich einen grünen Button auf einem Datensatz ganz unten, um neue Holzarten zu erstellen. Dann wird dieser Datensatz neu erstellt und zeigt Felder zur Eingabe der Anfangsdaten an.
-- [ ] Als Mitarbeiter der Wood Logistics GmbH möchte ich auch einen gelben Button auf den Datensätzen, um den Lagerbestand manuell zu verwalten.
-- [ ] Als Mitarbeiter der Wood Logistics GmbH möchte ich mit dem roten Button die Datensätze löschen, wenn kein Holz einer Sorte mehr vorhanden ist.
+
+- [x] Als Mitarbeiter der Wood Logistics GmbH wünsche ich mir, dass die Lagerdaten auf dem "Server" sind, um von überall im Unternehmen auf den Lagerbestand zugreifen zu können.
+- [x] Als Mitarbeiter der Wood Logistics GmbH möchte ich einen grünen Button auf einem Datensatz ganz unten, um neue Holzarten zu erstellen. Dann wird dieser Datensatz neu erstellt und zeigt Felder zur Eingabe der Anfangsdaten an.
+- [x] Als Mitarbeiter der Wood Logistics GmbH möchte ich auch einen gelben Button auf den Datensätzen, um den Lagerbestand manuell zu verwalten.
+- [x] Als Mitarbeiter der Wood Logistics GmbH möchte ich mit dem roten Button die Datensätze löschen, wenn kein Holz einer Sorte mehr vorhanden ist.
+
+
+
+## 13/12
+
+- [ ] Leere Methoden für ein Uhr Programm erstellen und Unit Tests nach Vorgaben erstellen. (6971)
+
+- [ ] Code Implementieren, sodass Tests grün sind. (6971) 
+
+- [ ] Advent of Code, den ersten Tag lösen
