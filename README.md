@@ -2,7 +2,7 @@
 
 ## Fertiges Projekt
 
-Das Talent in Programmierung liegt auch darin, dass man eine Idee in einer anderen Sprache zeigen kann. Mein Challange war, von der mir bekannten Sprache C# in Javascript mit einer **Dekodierungswebseite ** einzutauchen. Mit kleinen Schritten lernte ich Javascript mit diesem Projekt und gab den Benutzern der Website eine Möglichkeit, ihre Nachrichten zu übersetzen.
+Das Talent in Programmierung liegt auch darin, dass man eine Idee in einer anderen Sprache zeigen kann. Mein Challange war, von der mir bekannten Sprache C# in Javascript mit einer **Dekodierungswebseite** einzutauchen. Mit kleinen Schritten lernte ich Javascript mit diesem Projekt und gab den Benutzern der Website eine Möglichkeit, ihre Nachrichten zu übersetzen.
 
 ![input](./Project%20Files/Input.png)
 
