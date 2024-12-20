@@ -1,5 +1,15 @@
 # Lern-Periode-7
 
+## Fertiges Projekt
+
+Das Talent in Programmierung liegt auch darin, dass man eine Idee in einer anderen Sprache zeigen kann. Mein Challange war, von der mir bekannten Sprache C# in Javascript mit einer **Dekodierungswebseite ** einzutauchen. Mit kleinen Schritten lernte ich Javascript mit diesem Projekt und gab den Benutzern der Website eine Möglichkeit, ihre Nachrichten zu übersetzen.
+
+![input](./Project%20Files/Input.png)
+
+Einfaches HTML stellt alle Möglichkeiten der Verschlüsselung dar.
+
+<img title="" src="./Project%20Files/output.png" alt="output" width="317">
+
 Szymon Rybicki
 
 25/10/2024 bis 20/12/2024
@@ -85,12 +95,12 @@ Heute habe ich viel erreicht. Heute habe ich für die SPA gearbeitet. Zuerst hab
 
 - [ ] Advent of Code, den ersten Tag lösen
 
-
-
 Heute habe ich mit Test Driven Development Methode gearbeitet, um ein Programm zu erstellen. Ich finde die Methode sehr gut, vorallem wenn Testfälle vorhanden sind. Ich konnte zuerst das Programm gut kennenlernen, und dann Zielorientiert Schritt für Schritt Programm füllen. Am meisten hat es aber gedauert, Klassen zu erstellen. Für die Testklassen habe ich Vorlage heruntergeladen. Mir ist bewusst gewesen, dass dieser Auftrag viel dauern kann. Und auch wenn ich nur ein Arbeitspacket vollständig gemacht habe, habe ich eine gute Methode gefunden, die ich in Zukunft brauchen werde. (88)
 
 ## 22/12
 
-- [ ] Als Benutzer der Entschlüsselung-Webseite möchte ich wissen, welche Methode gedrückt wurde, um bei Entschlüsselung beweusst sein und konformität steigen.
+- [x] Als Benutzer der Entschlüsselung-Webseite möchte ich wissen, welche Methode gedrückt wurde, um bei Entschlüsselung beweusst sein und konformität steigen.
 
 - [ ] als Benutzer der Entschlüsselung-Webseite will ich Hintergrund der Webseite wählen, um sie zu personalisieren und Verbindung mit der Webseite aufbauen.
+
+## Reflexion
