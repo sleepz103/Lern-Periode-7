@@ -6,33 +6,44 @@ const Caesar = document.getElementById("caesar");
 const Shift = document.getElementById("shift");
 let decryptionMethod;
 
+Shift.style.borderWidth = "5px";
+Shift.style.borderColor = "black";
+Caesar.style.borderWidth = "5px";
+Caesar.style.borderColor = "black";
+
 // Script
 submit.addEventListener("click", decryptMessage);
 Caesar.addEventListener("click", function()
 {
     decryptionMethod = "Caesar";
+    Caesar.style.borderWidth = "5px";
+    Caesar.style.borderColor = "red";
+    Shift.style.borderColor = "black";
 });
 Shift.addEventListener("click", function()
 {
     decryptionMethod = "Shift";
+    Shift.style.borderWidth = "5px";
+    Shift.style.borderColor = "red";
+    Caesar.style.borderColor = "black";
 });
 
 
 function decryptMessage()
 {
     document.getElementById("outcomes").textContent = "";
-    if(decryptionMethod === "Caesar")
-    {
-        for (let i = 0; i < 26; i++)
-            {
-                DecodeCaesar(i);
-            }
-    }
-    else
+    if(decryptionMethod === "Shift")
     {
         for (let i = 0; i < 26; i++)
             {
                 DecodeShift(i);
+            }
+        }
+        else
+        {
+            for (let i = 0; i < 26; i++)
+            {
+                DecodeCaesar(i);
             }
     }
 }
