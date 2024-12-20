@@ -24,7 +24,7 @@ Nach einer Empfehlung habe ich entschieden, ich möchte Shift Entschlüsselung a
 
 - [x] Die wichtigen teilen bemerke ich mit tag.
 
-Heute haben wir mit neuen Lernperiode angefangen. Am Anfang konnte ich über mein Projekt entscheiden. Dann habe ich die Dateien erstellt. Ich weiss nun, ich brauche die Benutzereingabe zu empfangen und die Nachrhicht verarbeiten, und am Ende die Nachricht dynamisch auf die gleiche Webseite zeigen. Ich habe heute langsam gearbeitet. Ich habe vergesse, wie man Webseite erstellt. (57)
+Heute haben wir mit neuen Lernperiode angefangen. Am Anfang konnte ich über mein Projekt entscheiden. Dann habe ich die Dateien erstellt. Ich weiss nun, ich brauche die Benutzereingabe zu empfangen und die Nachrhicht verarbeiten, und am Ende die Nachricht dynamisch auf die gleiche Webseite zeigen. Ich habe heute langsam gearbeitet. Ich habe vergessen, wie man Webseite erstellt. (57)
 
 ## 01/11
 
@@ -56,7 +56,7 @@ Heute habe ich die Entschlüsselung Webseite auf Nutzbaren Stand gebracht. Zuers
 Modul 294 Periode
 
 - [x] Als Benutzer der Quote Webseite möchte ich gerne mehr Quotes haben, damit ich gerner auf die Webseite komme. 8426
-- [ ] Als Benutzer der Quote Webseite möchte ich auch gerne auswählen, wie viele Quotes geladen sind, damit ich mir nicht in Quotes verliere. 8426
+- [x] Als Benutzer der Quote Webseite möchte ich auch gerne auswählen, wie viele Quotes geladen sind, damit ich mir nicht in Quotes verliere. 8426
 - [ ] Als Schüler der IMS möchte ich JSON Backend lokal starten können, damit ich die CRUD aufgbae lösen kann und vortwärts mit Webentwicklung weiterfahren kann. 8429
 - [ ] Als Benutzer der CRUD Webseite möchte ich eine Liste aller Bücher und "Zurück" Button genererien lassen, um dynamisch zu sehen, welche Daten sich auf den Server befinden.  8429
 
@@ -103,4 +103,8 @@ Heute habe ich mit Test Driven Development Methode gearbeitet, um ein Programm z
 
 - [ ] als Benutzer der Entschlüsselung-Webseite will ich Hintergrund der Webseite wählen, um sie zu personalisieren und Verbindung mit der Webseite aufbauen.
 
+Heute musste ich meine Arbeit früher abbrechen. Während dieser Zeit habe ich mich an JavaScript erinnert und gelernt, wie man mit JavaScript das Style eines Elements verändert. Das hat kaum Probleme gemacht. Nun kann man auf der Webseite die Entschlüsselungsmethode erkennen. Es war zwar nicht der produktivste Tag, aber ich konnte trotzdem ein paar neue Dinge ausprobieren. (57)
+
 ## Reflexion
+
+Mit den Projekt, Fokus auf Javascript zu legen, finde ich, dass ich ein soldies Grundwissen zur Javascript erreicht habe. Es begann mit kleinen Erfolgen, wie Javascript mit Button zu verbinden und zu lernen, wie man überhaupt Text darstellt. Weiter ist es Anspruchsvoller gewesen und ging nicht nur mit Lesen. Javascript kann noch viel mehr, vorallem wird ja für Verbindungszwecke benutzt und das habe ich mit Tutorials auf Youtube gelernt. Es hat mir zur meiner Überraschung geholfen, den Tutorials zu folgen. Es wareine Zeitinvestition, die mich in die Lage versetzt hat, sogar CRUD-Operationen zu machen. Während Lernen habe ich auch meine Fragen in ChatGPT eingegeben. Nicht alles ging ohne Probleme und mit KI habe ich z.B. async/await Prinzip verstanden. Für meine Javascript Kenntnise ist diese Lernperiode ein Erfolg. (127)
